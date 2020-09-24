@@ -8,7 +8,6 @@
 		<version>2.3.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-<<<<<<< HEAD
 	<groupId>com.proj.liproj</groupId>
 	<artifactId>LibraryProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -18,21 +17,10 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Hoxton.SR8</spring-cloud.version>
-=======
-	<groupId>com.example</groupId>
-	<artifactId>my-spring-proj</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
-
-	<properties>
-		<java.version>1.8</java.version>
->>>>>>> 061b98b21d646255c51076a3b3ee68d3c65e0692
 	</properties>
 
 	<dependencies>
 		<dependency>
-<<<<<<< HEAD
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
@@ -43,12 +31,6 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-=======
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
->>>>>>> 061b98b21d646255c51076a3b3ee68d3c65e0692
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -62,7 +44,6 @@
 		</dependency>
 	</dependencies>
 
-<<<<<<< HEAD
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -75,8 +56,6 @@
 		</dependencies>
 	</dependencyManagement>
 
-=======
->>>>>>> 061b98b21d646255c51076a3b3ee68d3c65e0692
 	<build>
 		<plugins>
 			<plugin>
